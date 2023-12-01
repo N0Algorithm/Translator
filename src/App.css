@@ -1,0 +1,27 @@
+div{
+  padding :10px;  
+  text-align: center;
+
+}
+select{
+  padding: 5px;
+}
+textarea{
+  padding: 10px 15px;
+  border-radius: 5px;
+  width: 100%; /* Take up 100% of the available width */
+      box-sizing: border-box; /* Include padding and border in the width */
+      resize: none; /* Disable textarea resizing by the user */
+}
+.container button {
+  padding: 14px;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 17px;
+  border-radius: 5px;
+  background: cyan;
+  justify-content: center;
+}
