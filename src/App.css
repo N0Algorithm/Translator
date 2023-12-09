@@ -1,19 +1,36 @@
-div{
-  padding :10px;  
-  text-align: center;
-
+#p1{
+  padding :50px 50px;  
+  /* background: var(--color-gray); */
 }
+/* nav{
+  background-color: #FFFFFF;
+} */
 select{
   padding: 5px;
+}
+
+#translator-container {
+  background: var(--color-default);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+img{
+  height: 7%;
+  width: 7%;
+  cursor: pointer; 
 }
 textarea{
   padding: 10px 15px;
   border-radius: 5px;
   width: 100%; /* Take up 100% of the available width */
-      box-sizing: border-box; /* Include padding and border in the width */
-      resize: none; /* Disable textarea resizing by the user */
+  box-sizing: border-box; /* Include padding and border in the width */
+  resize: none; /* Disable textarea resizing by the user */
 }
-.container button {
+.container button{
   padding: 14px;
   outline: none;
   border: none;
@@ -22,6 +39,25 @@ textarea{
   margin-top: 20px;
   font-size: 17px;
   border-radius: 5px;
-  background: cyan;
+  background: #1B73E9;
   justify-content: center;
+}
+.c1{
+  text-align: center;
+}
+.b1{
+  padding: 50px;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 17px;
+  border-radius: 5px;
+  background: #1B73E9;
+  justify-content: center;
+}
+:root{
+  --color-default:#FFFFFF;
+  --color-gray:#f5f5f5;  
 }
